@@ -2024,7 +2024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &128565490
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4089,9 +4089,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 281054218}
+      - m_Target: {fileID: 281054220}
         m_TargetAssemblyTypeName: DisableOrEnableObject, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: openPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11192,9 +11192,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 923005149}
+      - m_Target: {fileID: 923005151}
         m_TargetAssemblyTypeName: DisableOrEnableObject, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: openPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12785,9 +12785,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1056543786}
+      - m_Target: {fileID: 1056543788}
         m_TargetAssemblyTypeName: DisableOrEnableObject, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: openPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13079,7 +13079,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1064975292
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13099,7 +13099,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -2, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1066148667
@@ -22048,7 +22048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4befe8bbbf2e7544c987489d57f49b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "f\xF8rste": {fileID: 0}
+  "f\xF8rste": {fileID: 1064975291}
   anden: {fileID: 0}
   tredje: {fileID: 0}
   fjerde: {fileID: 0}
