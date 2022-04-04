@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ArangeIntoCircle : MonoBehaviour
 {
-    public GameObject[] myArrayObjects = new GameObject[67];
+    public GameObject[] myArrayObjects = new GameObject[68];
 
     private void Start()
     {
@@ -17,9 +17,9 @@ public class ArangeIntoCircle : MonoBehaviour
 
         foreach (GameObject gameObject in myArrayObjects)
         {
-            float angle =(2 * Mathf.PI / 67);
-            float x = Mathf.Cos(angle) * 1.5f;
-            float y = Mathf.Sin(angle) * 1.5f;
+            float angle = (2 * Mathf.PI / 68);
+            float x = Mathf.Cos(angle) * 0.1f;
+            float y = Mathf.Sin(angle) * 0.1f;
             targetPositoin = new Vector3(targetPositoin.x + x, targetPositoin.y + y, 0);
             gameObject.transform.position = targetPositoin;
         }
